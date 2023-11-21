@@ -22,23 +22,7 @@ export default function Sidebar() {
             <IconButton size="sm" isRound icon={<ArrowLeftIcon/>} />
         </Flex>
         <Button m="5" p="4">New Chat</Button>
-        <Flex overflowX="scroll" direction="column" sx={{scrollbarWidth: 'none', '&::-webkit-scrollbar': { display: 'none'}}}>
-            <Chat/>
-            <Chat/>
-            <Chat/>
-            <Chat/>
-            <Chat/>
-            <Chat/>
-            <Chat/>
-            <Chat/>
-            <Chat/>
-            <Chat/>
-            <Chat/>
-            <Chat/>
-            <Chat/>
-            <Chat/>
-            <Chat/>
-            <Chat/>
+        <Flex overflowX="scroll" direction="column" sx={{scrollbarWidth: 'none', '&::-webkit-scrollbar': { display: 'none'}}} flex={1}>
             <Chat/>
             <Chat/>
         </Flex>
